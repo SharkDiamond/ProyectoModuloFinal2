@@ -21,7 +21,7 @@ public interface AccesoDatos {
     
     public void escribir(Peliculas pelicula,String NombreArchivo,boolean Anexar);//listo
     
-    public String buscar(String nombreArchivo,String buscar);
+    public String buscar(String nombreArchivo,String buscar);//listo
     
     public void Crear(String nombreArchivo);//listo
     

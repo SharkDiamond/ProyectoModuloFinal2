@@ -5,6 +5,9 @@
  */
 package proyectofinalsegundomodulo;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 import java.util.Scanner;
 import mx.com.gm.peliculas.negocio.CatalogoPeliculas;
 import mx.com.gm.peliculas.negocio.CatalogoPeliculasimpl;
@@ -25,8 +28,9 @@ public class PROYECTOFINALSEGUNDOMODULO {
        
        CatalogoPeliculas catalogo=new CatalogoPeliculasimpl();
         
-        
+       boolean condicion=true; 
        
+       while(condicion){
        
        //ENTRADA
        System.out.println("Elige Opcion:");
@@ -38,8 +42,50 @@ public class PROYECTOFINALSEGUNDOMODULO {
        
        opcion=elige.nextInt();
     
-     
+       //Procesos
+       switch(opcion){
        
+           case 1:
+               
+               
+               
+               break;
+               
+               
+          case 2:
+               
+               
+               break;
+               
+              
+                 case 3:
+               
+               
+               break;
+               
+                  case 4:
+               
+               
+               break;
+               
+               
+                  case 0:
+               
+                      condicion=false;
+               
+               break;
+               
+               
+                  default:
+                      
+                      System.out.println("No se eligio una opcion valida");
+       
+       }
+       
+       }
+       
+       System.out.println("Saliendo del sistema que tengas un gran dia");
+      System.exit(0);
     }
     
 }
